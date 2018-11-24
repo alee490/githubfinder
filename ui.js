@@ -14,9 +14,9 @@ class UI {
                     </div>
                     <div class="col-md-9">
                         <span class="badge badge-primary mb-2">Public Repos: ${user.public_repos}</span>
-                        <span class="badge badge-secondary mb-2">Public Repos: ${user.gists}</span>
-                        <span class="badge badge-success mb-2">Public Repos: ${user.followers}</span>
-                        <span class="badge badge-info mb-2">Public Repos: ${user.following}</span>
+                        <span class="badge badge-secondary mb-2">Gists: ${user.gists}</span>
+                        <span class="badge badge-success mb-2">Followers: ${user.followers}</span>
+                        <span class="badge badge-info mb-2">Following: ${user.following}</span>
                         <br><br>
                         <ul class="list-group">
                             <li class="list-group-item"> Company: ${user.company} </li>
